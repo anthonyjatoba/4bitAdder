@@ -1,0 +1,15 @@
+## How to compile and run the adder ##
+
+Change your current directory to the one containing the source code.
+
+Compile the code using the following command:
+
+	$ gcc 4bitAdder.c -o adder
+
+Run the generated binary with the following entry:
+	
+	$ ./adder <first-parameter> <second-parameter>
+
+Where both parameters are 4 bit numbers.
+
+The program will return the result.
